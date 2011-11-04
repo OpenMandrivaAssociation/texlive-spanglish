@@ -49,6 +49,7 @@ provided.
 %{_texmfdistdir}/tex/latex/spanglish/spanglish.ldf
 %{_texmfdistdir}/tex/latex/spanglish/spanglish.sty
 %doc %{_texmfdistdir}/doc/latex/spanglish/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +60,5 @@ provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
