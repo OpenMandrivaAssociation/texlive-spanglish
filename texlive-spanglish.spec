@@ -1,12 +1,12 @@
-# revision 20889
+# revision 29272
 # category Package
 # catalog-ctan /language/spanish/babel/contrib/spanglish
-# catalog-date 2010-12-28 21:48:53 +0100
+# catalog-date 2013-03-02 07:48:35 +0100
 # catalog-license lppl1.3
-# catalog-version 0.1
+# catalog-version 0.1a
 Name:		texlive-spanglish
-Version:	0.1
-Release:	2
+Version:	0.1a
+Release:	1
 Summary:	Simplified Spanish support for Babel
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/spanish/babel/contrib/spanglish
@@ -51,17 +51,3 @@ provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-2
-+ Revision: 756078
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 719559
-- texlive-spanglish
-- texlive-spanglish
-- texlive-spanglish
-- texlive-spanglish
-
