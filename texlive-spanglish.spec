@@ -6,7 +6,7 @@
 # catalog-version 0.1a
 Name:		texlive-spanglish
 Version:	0.1a
-Release:	3
+Release:	4
 Summary:	Simplified Spanish support for Babel
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/spanish/babel/contrib/spanglish
