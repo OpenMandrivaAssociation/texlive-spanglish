@@ -9,7 +9,7 @@ Version:	0.1a
 Release:	11
 Summary:	Simplified Spanish support for Babel
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/spanish/babel/contrib/spanglish
+URL:		https://www.ctan.org/tex-archive/language/spanish/babel/contrib/spanglish
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/spanglish.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/spanglish.doc.tar.xz
